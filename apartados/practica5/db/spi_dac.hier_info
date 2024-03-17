@@ -1,0 +1,168 @@
+|spi_dac
+reset => divisor_reloj:cp2.en
+reset => reg_des:cp1.reset
+reset => impulso_ini:cp3.reset
+reset => uc_spi_out:cp5.reset
+sc => impulso_ini:cp3.entrada
+clk => divisor_reloj:cp2.clkin
+din[0] => reg_des:cp1.dato_in[0]
+din[1] => reg_des:cp1.dato_in[1]
+din[2] => reg_des:cp1.dato_in[2]
+din[3] => reg_des:cp1.dato_in[3]
+din[4] => reg_des:cp1.dato_in[4]
+din[5] => reg_des:cp1.dato_in[5]
+din[6] => reg_des:cp1.dato_in[6]
+din[7] => reg_des:cp1.dato_in[7]
+din[8] => reg_des:cp1.dato_in[8]
+din[9] => reg_des:cp1.dato_in[9]
+sdo <= uc_spi_out:cp5.sdo
+eoc <= contador:cp4.fin
+sck <= uc_spi_out:cp5.sck
+cs <= uc_spi_out:cp5.cs
+
+
+|spi_dac|reg_des:cp1
+dato_in[0] => Q.DATAB
+dato_in[1] => Q.DATAB
+dato_in[2] => Q.DATAB
+dato_in[3] => Q.DATAB
+dato_in[4] => Q.DATAB
+dato_in[5] => Q.DATAB
+dato_in[6] => Q.DATAB
+dato_in[7] => Q.DATAB
+dato_in[8] => Q.DATAB
+dato_in[9] => Q.DATAB
+reset => Q[0].ACLR
+reset => Q[1].ACLR
+reset => Q[2].ACLR
+reset => Q[3].ACLR
+reset => Q[4].ACLR
+reset => Q[5].ACLR
+reset => Q[6].ACLR
+reset => Q[7].ACLR
+reset => Q[8].ACLR
+reset => Q[9].ACLR
+reset => Q[10].ACLR
+reset => Q[11].ACLR
+reset => Q[12].ACLR
+reset => Q[13].ACLR
+reset => Q[14].ACLR
+reset => Q[15].ACLR
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q.OUTPUTSELECT
+carga => Q[1].ENA
+carga => Q[0].ENA
+clk => Q[0].CLK
+clk => Q[1].CLK
+clk => Q[2].CLK
+clk => Q[3].CLK
+clk => Q[4].CLK
+clk => Q[5].CLK
+clk => Q[6].CLK
+clk => Q[7].CLK
+clk => Q[8].CLK
+clk => Q[9].CLK
+clk => Q[10].CLK
+clk => Q[11].CLK
+clk => Q[12].CLK
+clk => Q[13].CLK
+clk => Q[14].CLK
+clk => Q[15].CLK
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+en => Q.OUTPUTSELECT
+dato_out <= Q[15].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|spi_dac|divisor_reloj:cp2
+clkin => contador[0].CLK
+clkin => contador[1].CLK
+clkin => contador[2].CLK
+clkin => clkout~reg0.CLK
+clkin => clkout~reg0.ADATA
+clkout <= clkout~reg0.DB_MAX_OUTPUT_PORT_TYPE
+en => clkout.IN1
+en => contador[2].IN1
+en => clkout~reg0.ACLR
+modulo[0] => LessThan0.IN4
+modulo[0] => LessThan3.IN4
+modulo[1] => LessThan1.IN6
+modulo[1] => LessThan2.IN6
+modulo[1] => LessThan0.IN6
+modulo[1] => LessThan3.IN6
+modulo[2] => LessThan1.IN5
+modulo[2] => LessThan2.IN5
+modulo[2] => LessThan0.IN5
+modulo[2] => LessThan3.IN5
+
+
+|spi_dac|impulso_ini:cp3
+clk => estado~2.DATAIN
+reset => estado~4.DATAIN
+entrada => estado.DATAB
+entrada => Selector1.IN2
+entrada => Selector0.IN1
+salida <= salida.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|spi_dac|contador:cp4
+clk => Q[0].CLK
+clk => Q[1].CLK
+clk => Q[2].CLK
+clk => Q[3].CLK
+clk => Q[4].CLK
+inicio => Q[0].ACLR
+inicio => Q[1].ACLR
+inicio => Q[2].ACLR
+inicio => Q[3].ACLR
+inicio => Q[4].ACLR
+en => Q[4].ENA
+en => Q[3].ENA
+en => Q[2].ENA
+en => Q[1].ENA
+en => Q[0].ENA
+fin <= fin.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|spi_dac|uc_spi_out:cp5
+clk => sck.DATAA
+clk => est~1.DATAIN
+reset => est~3.DATAIN
+din => sdo.DATAA
+sc => est.DATAB
+sc => Selector0.IN1
+eoc => Selector0.IN2
+eoc => Selector2.IN2
+eoc => sck.OUTPUTSELECT
+eoc => Selector1.IN2
+cs <= Selector2.DB_MAX_OUTPUT_PORT_TYPE
+en <= en.DB_MAX_OUTPUT_PORT_TYPE
+sck <= sck.DB_MAX_OUTPUT_PORT_TYPE
+sdo <= sdo.DB_MAX_OUTPUT_PORT_TYPE
+
+

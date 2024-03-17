@@ -1,0 +1,95 @@
+--Laboratorio de Electrónica Digital. Universidad de Vigo
+--Módulo de control del circuito ADC MCP3001
+--conectado a la placa DEO
+
+--Conexión de las señales de entrada:
+--clk: se conecta al reloj de 50 MHz de la placa
+--reset: se conecta al interruptor SWO 
+--sc: Start Conversión, se conecta al pulsador BUTTON2
+--din: Se conecta al terminal 6 del ADC
+
+--Conexión de las señales de salida:
+--sck: es el reloj SPI de 1 MHz
+--cs: es la señal SPI de selección del periférico 
+--dout: es la palabra de datos
+
+library IEEE;
+use ieee.std_logic_1164.all;
+
+entity spi_adc is
+generic(n: integer:=10); --numero de bits del dato
+port
+	(clk, reset,sc,sdi:in std_logic;
+	sck,cs:out std_logic;
+	dout: out std_logic_vector(n-1 downto 0));
+end;
+
+architecture comportamiento of spi_adc is
+signal ck,sc_prev:std_logic;
+COMPONENT clkout port
+	(areset: IN STD_LOGIC:= '0';
+	inclk0: IN STD_LOGIC:='0';
+	c0 : OUT STD_LOGIC );
+
+END COMPONENT;
+
+BEGIN
+
+clkadc: clkout PORT MAP (areset=>reset, inclk0=>clk, c0=>ck);
+sck <= ck;
+
+datoin: PROCESS (reset, ck)
+VARIABLE start, scint: std_logic; 
+VARIABLE dato: std_logic_vector(9 downto 0);
+VARIABLE indice: integer range 0 to 11;
+VARIABLE altaimp: integer range 0 to 15;
+
+BEGIN --incialización asincrona
+
+ IF reset='1' THEN 
+	dout <= (OTHERS=>'0');
+	scint:='0';
+	indice:=0;
+	altaimp:=0; --contador de los dos ciclos iniciales
+	sc_prev<='1';
+ELSE --activo a flanco positivo
+	IF (ck'EVENT and ck='1') THEN
+		IF (sc='0' and scint='0') THEN
+			sc_prev<='0';
+			scint:='0';
+			altaimp:=altaimp+1;
+			IF (sdi= '0' and altaimp>=4 and indice=0) THEN --ciclos iniciales
+				indice:=1;
+				sc_prev<= '0';--habilitación
+				dato:= (OTHERS => '0');
+			ELSIF (indice>=1 and indice <11) THEN --estados de transmision de dato 
+				dato(10-indice) := sdi; --mas desabilitación
+				IF(indice <10) THEN --transmision de dato
+					sc_prev<= '0';
+				ELSE dout <= dato; --desabilitación
+					scint:='1';
+					sc_prev<='1';
+				END IF;
+				indice:=indice+1;
+			ELSE NULL;
+			END IF;
+		ELSIF sc='1' THEN --requiere flance positivo en habilitación externa
+			scint:='0';--para nueva transmisión
+			indice:=0;
+			altaimp:=0;
+		ELSE NULL; 
+		END IF;
+	ELSE NULL; --clk
+	END IF;
+END IF;
+dout<=dato;
+END PROCESS;
+
+habil: PROCESS (reset, ck)
+BEGIN
+	IF (ck'EVENT AND ck='0') THEN
+		cs <= sc_prev;
+	ELSE NULL;
+	END IF;
+END PROCESS;
+END ARCHITECTURE;

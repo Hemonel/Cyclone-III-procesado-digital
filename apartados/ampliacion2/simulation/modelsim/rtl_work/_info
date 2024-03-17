@@ -1,0 +1,383 @@
+m255
+K3
+13
+cModel Technology
+Z0 dF:\cuarto\LSDP\ampliacion\procesador_2\simulation\modelsim
+Eclkout
+Z1 w1678018232
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dF:\cuarto\LSDP\ampliacion\procesador_2\simulation\modelsim
+Z5 8F:/cuarto/LSDP/ampliacion/procesador_2/clkout.vhd
+Z6 FF:/cuarto/LSDP/ampliacion/procesador_2/clkout.vhd
+l0
+L42
+VNoVj_K`<b<20VXzH62lGg0
+Z7 OV;C;10.1d;51
+31
+Z8 !s108 1679913165.327000
+Z9 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/clkout.vhd|
+Z10 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/clkout.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+!s100 X5n8m1B@D9ezPDSGj?m<Y1
+!i10b 1
+Asyn
+R2
+R3
+DEx4 work 6 clkout 0 22 NoVj_K`<b<20VXzH62lGg0
+l127
+L52
+VWlJH^c0WV8AmTL1jR_@>H1
+R7
+31
+R8
+R9
+R10
+R11
+R12
+!s100 jd0nl?W2IiCXZICcQZbKj1
+!i10b 1
+vclkout_altpll
+ITQV4iD>_ofR;6`Yg2J`h:2
+VkX4Jgfld;53IJjkJH5Ge^2
+R4
+w1679311844
+8F:/cuarto/LSDP/ampliacion/procesador_2/db/clkout_altpll.v
+FF:/cuarto/LSDP/ampliacion/procesador_2/db/clkout_altpll.v
+L0 29
+Z13 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 6VDXhd:U`EDa@K[dZ02G]2
+!s85 0
+!s108 1679913159.450000
+!s107 F:/cuarto/LSDP/ampliacion/procesador_2/db/clkout_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+F:/cuarto/LSDP/ampliacion/procesador_2/db|F:/cuarto/LSDP/ampliacion/procesador_2/db/clkout_altpll.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+F:/cuarto/LSDP/ampliacion/procesador_2/db -O0
+Econtador
+Z14 w1647709242
+Z15 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+R2
+R3
+R4
+Z16 8F:/cuarto/LSDP/ampliacion/procesador_2/contador.vhd
+Z17 FF:/cuarto/LSDP/ampliacion/procesador_2/contador.vhd
+l0
+L5
+V4EL5V@=3TY^YM3_ck^ld<2
+R7
+31
+Z18 !s108 1679913164.812000
+Z19 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/contador.vhd|
+Z20 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/contador.vhd|
+R11
+R12
+!s100 8n03X]lDgDWX>G4:^la=81
+!i10b 1
+Aalgoritmo
+R15
+R2
+R3
+DEx4 work 8 contador 0 22 4EL5V@=3TY^YM3_ck^ld<2
+l12
+L10
+VDVmeSzUE19FlCJ>@:<JYY0
+R7
+31
+R18
+R19
+R20
+R11
+R12
+!s100 hU7:CU0Y2TT7kBi3OEzgl3
+!i10b 1
+Edivisor_reloj
+Z21 w1647715982
+R15
+R2
+R3
+R4
+Z22 8F:/cuarto/LSDP/ampliacion/procesador_2/divisor_reloj.vhd
+Z23 FF:/cuarto/LSDP/ampliacion/procesador_2/divisor_reloj.vhd
+l0
+L14
+V=QGKJgHS>XW7TRP63o6A=3
+R7
+31
+Z24 !s108 1679913164.276000
+Z25 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/divisor_reloj.vhd|
+Z26 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/divisor_reloj.vhd|
+R11
+R12
+!s100 ZMXFcjPl4e?gkQ`E9kZ]_1
+!i10b 1
+Adecripcion
+R15
+R2
+R3
+DEx4 work 13 divisor_reloj 0 22 =QGKJgHS>XW7TRP63o6A=3
+l38
+L28
+VP]S9L]78zKoNbElJ1JbT<3
+R7
+31
+R24
+R25
+R26
+R11
+R12
+!s100 @Z@;DSSEO>_<bK]<2dQkm0
+!i10b 1
+Eimpulso_ini
+Z27 w1647448140
+R2
+R3
+R4
+Z28 8F:/cuarto/LSDP/ampliacion/procesador_2/impulso_ini.vhd
+Z29 FF:/cuarto/LSDP/ampliacion/procesador_2/impulso_ini.vhd
+l0
+L4
+V9Un=`TQke1J0g3dLQ<h;G2
+R7
+31
+Z30 !s108 1679913163.716000
+Z31 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/impulso_ini.vhd|
+Z32 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/impulso_ini.vhd|
+R11
+R12
+!s100 KoJO2;<o8ZXX4EnGzib8h0
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 11 impulso_ini 0 22 9Un=`TQke1J0g3dLQ<h;G2
+l13
+L9
+VUfMYjn1EU75GWWLH472@z3
+R7
+31
+R30
+R31
+R32
+R11
+R12
+!s100 3>Ah8MM0oKRLekI^Pa?VG1
+!i10b 1
+Emem_fifo
+Z33 w1679657806
+R15
+R2
+R3
+R4
+Z34 8F:/cuarto/LSDP/ampliacion/mem_fifo.vhd
+Z35 FF:/cuarto/LSDP/ampliacion/mem_fifo.vhd
+l0
+L5
+VC08<`MLIXGab:?Ei`8DG02
+R7
+31
+Z36 !s108 1679913159.839000
+Z37 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/mem_fifo.vhd|
+Z38 !s107 F:/cuarto/LSDP/ampliacion/mem_fifo.vhd|
+R11
+R12
+!s100 XXgAOCVaIL^2Fnl@Bl0792
+!i10b 1
+Aguarda
+R15
+R2
+R3
+DEx4 work 8 mem_fifo 0 22 C08<`MLIXGab:?Ei`8DG02
+l18
+L14
+V28^J]WVOczFZC<IR^0XI?1
+R7
+31
+R36
+R37
+R38
+R11
+R12
+!s100 Hmo_EB4zoCoIFOQ:;zOK91
+!i10b 1
+Eprocesador_2
+Z39 w1679911880
+R15
+R2
+R3
+R4
+Z40 8F:/cuarto/LSDP/ampliacion/procesador_2/procesador_2.vhd
+Z41 FF:/cuarto/LSDP/ampliacion/procesador_2/procesador_2.vhd
+l0
+L5
+VzKMh3<5XNf>UJj8<HdFeO0
+!s100 b?HMO=h_eG09;H`j8<8NP2
+R7
+31
+!i10b 1
+Z42 !s108 1679913165.914000
+Z43 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/procesador_2.vhd|
+Z44 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/procesador_2.vhd|
+R11
+R12
+Acircuito
+R15
+R2
+R3
+DEx4 work 12 procesador_2 0 22 zKMh3<5XNf>UJj8<HdFeO0
+l57
+L20
+V;^IQ4O_kd8[7NE?4ccb]T0
+!s100 g1DT5`EGmkj9UMg[jdO7z3
+R7
+31
+!i10b 1
+R42
+R43
+R44
+R11
+R12
+Ereg_des
+Z45 w1647425952
+R2
+R3
+R4
+Z46 8F:/cuarto/LSDP/ampliacion/procesador_2/reg_des.vhd
+Z47 FF:/cuarto/LSDP/ampliacion/procesador_2/reg_des.vhd
+l0
+L4
+V>CF1lZU5XWf[WJSRIABX72
+R7
+31
+Z48 !s108 1679913162.954000
+Z49 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/reg_des.vhd|
+Z50 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/reg_des.vhd|
+R11
+R12
+!s100 ^NSoNAWmUPM8;BEUK89eH3
+!i10b 1
+Acircuito
+R2
+R3
+DEx4 work 7 reg_des 0 22 >CF1lZU5XWf[WJSRIABX72
+l13
+L10
+V?VS[a96KPkVgojUGO=i[e1
+R7
+31
+R48
+R49
+R50
+R11
+R12
+!s100 e747fhZ82MmN81Hhi:Of23
+!i10b 1
+Espi_adc
+Z51 w1678018294
+R2
+R3
+R4
+Z52 8F:/cuarto/LSDP/ampliacion/procesador_2/spi_adc.vhd
+Z53 FF:/cuarto/LSDP/ampliacion/procesador_2/spi_adc.vhd
+l0
+L14
+Vmz>Xc`>E89@ThL2oHFeH:2
+R7
+31
+Z54 !s108 1679913162.368000
+Z55 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/spi_adc.vhd|
+Z56 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/spi_adc.vhd|
+R11
+R12
+!s100 omQb2GTmeM1PH0F;eMBV62
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 7 spi_adc 0 22 mz>Xc`>E89@ThL2oHFeH:2
+l33
+L22
+VK88gVg]KIC<NC3Em98M2V0
+R7
+31
+R54
+R55
+R56
+R11
+R12
+!s100 `WONEkKEA`=6HE]jdVY_Q0
+!i10b 1
+Espi_dac
+Z57 w1647710724
+R2
+R3
+R4
+Z58 8F:/cuarto/LSDP/ampliacion/procesador_2/spi_dac.vhd
+Z59 FF:/cuarto/LSDP/ampliacion/procesador_2/spi_dac.vhd
+l0
+L9
+VT5BHZo3:D>?feYoZb3TeY2
+R7
+31
+Z60 !s108 1679913160.811000
+Z61 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/spi_dac.vhd|
+Z62 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/spi_dac.vhd|
+R11
+R12
+!s100 F>`7ak4;g?4BNML40SdMz2
+!i10b 1
+Acircuito
+R2
+R3
+DEx4 work 7 spi_dac 0 22 T5BHZo3:D>?feYoZb3TeY2
+l56
+L15
+V61P:7Kz=][A9L>fa0@`J52
+R7
+31
+R60
+R61
+R62
+R11
+R12
+!s100 e]4iRXKkVjEUCb=WSjk8[0
+!i10b 1
+Euc_spi_out
+Z63 w1647715976
+R2
+R3
+R4
+Z64 8F:/cuarto/LSDP/ampliacion/procesador_2/uc_spi_out.vhd
+Z65 FF:/cuarto/LSDP/ampliacion/procesador_2/uc_spi_out.vhd
+l0
+L3
+Vam6BfVEX[c1hcR7?EF]CY3
+R7
+31
+Z66 !s108 1679913160.320000
+Z67 !s90 -reportprogress|300|-93|-work|work|F:/cuarto/LSDP/ampliacion/procesador_2/uc_spi_out.vhd|
+Z68 !s107 F:/cuarto/LSDP/ampliacion/procesador_2/uc_spi_out.vhd|
+R11
+R12
+!s100 IDCn5KdAc1Efm@[Dzj;M_3
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 10 uc_spi_out 0 22 am6BfVEX[c1hcR7?EF]CY3
+l11
+L8
+V3ZXaRk_]BB:e@^HhU2:X_3
+R7
+31
+R66
+R67
+R68
+R11
+R12
+!s100 3?k?3=ZUCLLAigfGFP;bU0
+!i10b 1

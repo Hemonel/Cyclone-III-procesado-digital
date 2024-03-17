@@ -1,0 +1,549 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do procesador_2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db/clkout_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clkout_altpll
+# 
+# Top level modules:
+# 	clkout_altpll
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/mem_fifo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem_fifo
+# -- Compiling architecture guarda of mem_fifo
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/uc_spi_out.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uc_spi_out
+# -- Compiling architecture comportamiento of uc_spi_out
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_dac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_dac
+# -- Compiling architecture circuito of spi_dac
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_adc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc
+# -- Compiling architecture comportamiento of spi_adc
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/reg_des.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_des
+# -- Compiling architecture circuito of reg_des
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/impulso_ini.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity impulso_ini
+# -- Compiling architecture comportamiento of impulso_ini
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/divisor_reloj.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor_reloj
+# -- Compiling architecture decripcion of divisor_reloj
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/contador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador
+# -- Compiling architecture algoritmo of contador
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/clkout.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clkout
+# -- Compiling architecture SYN of clkout
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/procesador_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity procesador_2
+# -- Compiling architecture circuito of procesador_2
+# 
+vcom -reportprogress 300 -work work C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/simulation/modelsim/procesador_2.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity procesador_2_vhd_tst
+# -- Compiling architecture procesador_2_arch of procesador_2_vhd_tst
+vsim +altera -do procesador_2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.procesador_2_vhd_tst
+# vsim +altera -do procesador_2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.procesador_2_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.procesador_2_vhd_tst(procesador_2_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.procesador_2(circuito)
+# Loading work.spi_adc(comportamiento)
+# Loading work.clkout(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# Loading work.divisor_reloj(decripcion)
+# Loading work.spi_dac(circuito)
+# Loading work.reg_des(circuito)
+# Loading work.impulso_ini(comportamiento)
+# Loading work.contador(algoritmo)
+# Loading work.uc_spi_out(comportamiento)
+# Loading work.mem_fifo(guarda)
+# ** Warning: Design size of 23 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# do procesador_2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db/clkout_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clkout_altpll
+# 
+# Top level modules:
+# 	clkout_altpll
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/mem_fifo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem_fifo
+# -- Compiling architecture guarda of mem_fifo
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/uc_spi_out.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uc_spi_out
+# -- Compiling architecture comportamiento of uc_spi_out
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_dac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_dac
+# -- Compiling architecture circuito of spi_dac
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_adc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc
+# -- Compiling architecture comportamiento of spi_adc
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/reg_des.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_des
+# -- Compiling architecture circuito of reg_des
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/impulso_ini.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity impulso_ini
+# -- Compiling architecture comportamiento of impulso_ini
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/divisor_reloj.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor_reloj
+# -- Compiling architecture decripcion of divisor_reloj
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/contador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador
+# -- Compiling architecture algoritmo of contador
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/clkout.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clkout
+# -- Compiling architecture SYN of clkout
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/procesador_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity procesador_2
+# -- Compiling architecture circuito of procesador_2
+# 
+add wave -position insertpoint  \
+sim:/procesador_2_vhd_tst/clk \
+sim:/procesador_2_vhd_tst/en \
+sim:/procesador_2_vhd_tst/reset \
+sim:/procesador_2_vhd_tst/sdi \
+sim:/procesador_2_vhd_tst/sdo
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Note: Cyclone III PLL was reset
+#    Time: 0 ps  Iteration: 4  Instance: /procesador_2_vhd_tst/i1/cp1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+# ** Note: Cyclone III PLL locked to incoming clock
+#    Time: 1180 ns  Iteration: 3  Instance: /procesador_2_vhd_tst/i1/cp1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/simulation/modelsim/procesador_2.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity procesador_2_vhd_tst
+# -- Compiling architecture procesador_2_arch of procesador_2_vhd_tst
+vsim +altera -do procesador_2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.procesador_2_vhd_tst
+# vsim +altera -do procesador_2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.procesador_2_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.procesador_2_vhd_tst(procesador_2_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.procesador_2(circuito)
+# Loading work.spi_adc(comportamiento)
+# Loading work.clkout(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# Loading work.divisor_reloj(decripcion)
+# Loading work.spi_dac(circuito)
+# Loading work.reg_des(circuito)
+# Loading work.impulso_ini(comportamiento)
+# Loading work.contador(algoritmo)
+# Loading work.uc_spi_out(comportamiento)
+# Loading work.mem_fifo(guarda)
+# ** Warning: Design size of 23 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# do procesador_2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db/clkout_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clkout_altpll
+# 
+# Top level modules:
+# 	clkout_altpll
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/mem_fifo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem_fifo
+# -- Compiling architecture guarda of mem_fifo
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/uc_spi_out.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uc_spi_out
+# -- Compiling architecture comportamiento of uc_spi_out
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_dac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_dac
+# -- Compiling architecture circuito of spi_dac
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_adc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc
+# -- Compiling architecture comportamiento of spi_adc
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/reg_des.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_des
+# -- Compiling architecture circuito of reg_des
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/impulso_ini.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity impulso_ini
+# -- Compiling architecture comportamiento of impulso_ini
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/divisor_reloj.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor_reloj
+# -- Compiling architecture decripcion of divisor_reloj
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/contador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador
+# -- Compiling architecture algoritmo of contador
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/clkout.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clkout
+# -- Compiling architecture SYN of clkout
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/procesador_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity procesador_2
+# -- Compiling architecture circuito of procesador_2
+# 
+add wave -position insertpoint  \
+sim:/procesador_2_vhd_tst/clk \
+sim:/procesador_2_vhd_tst/cs_adc \
+sim:/procesador_2_vhd_tst/cs_dac \
+sim:/procesador_2_vhd_tst/en \
+sim:/procesador_2_vhd_tst/eop \
+sim:/procesador_2_vhd_tst/reset \
+sim:/procesador_2_vhd_tst/sck_adc \
+sim:/procesador_2_vhd_tst/sck_dac \
+sim:/procesador_2_vhd_tst/sdi \
+sim:/procesador_2_vhd_tst/sdo
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Note: Cyclone III PLL was reset
+#    Time: 0 ps  Iteration: 4  Instance: /procesador_2_vhd_tst/i1/cp1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+# ** Note: Cyclone III PLL locked to incoming clock
+#    Time: 1180 ns  Iteration: 3  Instance: /procesador_2_vhd_tst/i1/cp1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+run
+quit -sim
+vcom -reportprogress 300 -work work C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/simulation/modelsim/procesador_2.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity procesador_2_vhd_tst
+# -- Compiling architecture procesador_2_arch of procesador_2_vhd_tst
+vsim +altera -do procesador_2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.procesador_2_vhd_tst
+# vsim +altera -do procesador_2_run_msim_rtl_vhdl.do -l msim_transcript -gui work.procesador_2_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.procesador_2_vhd_tst(procesador_2_arch)
+# Loading ieee.numeric_std(body)
+# Loading work.procesador_2(circuito)
+# Loading work.spi_adc(comportamiento)
+# Loading work.clkout(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# Loading work.divisor_reloj(decripcion)
+# Loading work.spi_dac(circuito)
+# Loading work.reg_des(circuito)
+# Loading work.impulso_ini(comportamiento)
+# Loading work.contador(algoritmo)
+# Loading work.uc_spi_out(comportamiento)
+# Loading work.mem_fifo(guarda)
+# ** Warning: Design size of 23 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# do procesador_2_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/db/clkout_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clkout_altpll
+# 
+# Top level modules:
+# 	clkout_altpll
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/mem_fifo.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity mem_fifo
+# -- Compiling architecture guarda of mem_fifo
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/uc_spi_out.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uc_spi_out
+# -- Compiling architecture comportamiento of uc_spi_out
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_dac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_dac
+# -- Compiling architecture circuito of spi_dac
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/spi_adc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc
+# -- Compiling architecture comportamiento of spi_adc
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/reg_des.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_des
+# -- Compiling architecture circuito of reg_des
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/impulso_ini.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity impulso_ini
+# -- Compiling architecture comportamiento of impulso_ini
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/divisor_reloj.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor_reloj
+# -- Compiling architecture decripcion of divisor_reloj
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/contador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador
+# -- Compiling architecture algoritmo of contador
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/clkout.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clkout
+# -- Compiling architecture SYN of clkout
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion1/procesador_2.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity procesador_2
+# -- Compiling architecture circuito of procesador_2
+# 
+add wave -position insertpoint  \
+sim:/procesador_2_vhd_tst/sdi \
+sim:/procesador_2_vhd_tst/sdo
+add wave -position insertpoint sim:/procesador_2_vhd_tst/i1/cp1/datoin/*
+add wave -position insertpoint  \
+sim:/procesador_2_vhd_tst/i1/fifo/sal
+add wave -position insertpoint  \
+sim:/procesador_2_vhd_tst/i1/fifo/e
+run
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 0  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /procesador_2_vhd_tst/i1/cp3/cp2
+# ** Warning: NUMERIC_STD.TO_INTEGER: metavalue detected, returning 0
+#    Time: 0 ps  Iteration: 1  Instance: /procesador_2_vhd_tst/i1/cp2
+# ** Note: Cyclone III PLL was reset
+#    Time: 0 ps  Iteration: 4  Instance: /procesador_2_vhd_tst/i1/cp1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+# ** Note: Cyclone III PLL locked to incoming clock
+#    Time: 1180 ns  Iteration: 3  Instance: /procesador_2_vhd_tst/i1/cp1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+run
+run
+run
+run
+run

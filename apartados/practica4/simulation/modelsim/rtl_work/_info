@@ -1,0 +1,95 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\eloyc\OneDrive\Documentos\4UNI\LSDP\practica4\simulation\modelsim
+Eclkout
+Z1 w1677944608
+Z2 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z3 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z4 dC:\Users\eloyc\OneDrive\Documentos\4UNI\LSDP\practica4\simulation\modelsim
+Z5 8C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/clkout.vhd
+Z6 FC:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/clkout.vhd
+l0
+L42
+VNoVj_K`<b<20VXzH62lGg0
+!s100 X5n8m1B@D9ezPDSGj?m<Y1
+Z7 OV;C;10.1d;51
+31
+!i10b 1
+Z8 !s108 1677950740.195000
+Z9 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/clkout.vhd|
+Z10 !s107 C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/clkout.vhd|
+Z11 o-93 -work work -O0
+Z12 tExplicit 1
+Asyn
+R2
+R3
+DEx4 work 6 clkout 0 22 NoVj_K`<b<20VXzH62lGg0
+l127
+L52
+VWlJH^c0WV8AmTL1jR_@>H1
+!s100 jd0nl?W2IiCXZICcQZbKj1
+R7
+31
+!i10b 1
+R8
+R9
+R10
+R11
+R12
+vclkout_altpll
+I_`<[Oi7Y_eVHOd2`>7<R82
+VkX4Jgfld;53IJjkJH5Ge^2
+R4
+w1677945861
+8C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db/clkout_altpll.v
+FC:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db/clkout_altpll.v
+L0 29
+Z13 OV;L;10.1d;51
+r1
+31
+o-vlog01compat -work work -O0
+!i10b 1
+!s100 D?L47:Je357bBVQ3DHeTI1
+!s85 0
+!s108 1677950740.072000
+!s107 C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db/clkout_altpll.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db|C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db/clkout_altpll.v|
+!s101 -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db -O0
+Espi_adc
+Z14 w1677950472
+R2
+R3
+R4
+Z15 8C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/spi_adc.vhd
+Z16 FC:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/spi_adc.vhd
+l0
+L4
+V<VWG53in7_B;<3O_OaAT02
+R7
+31
+Z17 !s108 1677950740.142000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/spi_adc.vhd|
+Z19 !s107 C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/spi_adc.vhd|
+R11
+R12
+!s100 D]@KZDPQKi_l0zNoOf;AU1
+!i10b 1
+Acomportamiento
+R2
+R3
+DEx4 work 7 spi_adc 0 22 <VWG53in7_B;<3O_OaAT02
+l21
+L12
+Vm9j;4>U7]MH0dM3cWgUfF2
+R7
+31
+R17
+R18
+R19
+R11
+R12
+!s100 Ll92;MVlhdZBzPnjCi9h^2
+!i10b 1

@@ -1,0 +1,57 @@
+# Reading C:/altera/13.0/modelsim_ase/tcl/vsim/pref.tcl 
+# do spi_dac_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/uc_spi_out.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity uc_spi_out
+# -- Compiling architecture comportamiento of uc_spi_out
+# vcom -93 -work work {C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/spi_dac.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_dac
+# -- Compiling architecture circuito of spi_dac
+# vcom -93 -work work {C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/reg_des.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity reg_des
+# -- Compiling architecture circuito of reg_des
+# vcom -93 -work work {C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/impulso_ini.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity impulso_ini
+# -- Compiling architecture comportamiento of impulso_ini
+# vcom -93 -work work {C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/divisor_reloj.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity divisor_reloj
+# -- Compiling architecture decripcion of divisor_reloj
+# vcom -93 -work work {C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/contador.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity contador
+# -- Compiling architecture algoritmo of contador
+# 

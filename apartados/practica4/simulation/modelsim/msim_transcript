@@ -1,0 +1,109 @@
+# Reading C:/altera/13.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do practica4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db/clkout_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clkout_altpll
+# 
+# Top level modules:
+# 	clkout_altpll
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/spi_adc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc
+# -- Compiling architecture comportamiento of spi_adc
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/clkout.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clkout
+# -- Compiling architecture SYN of clkout
+# 
+vcom -reportprogress 300 -work work C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/simulation/modelsim/spi_adc.vht
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc_vhd_tst
+# -- Compiling architecture spi_adc_arch of spi_adc_vhd_tst
+vsim +altera -do practica4_run_msim_rtl_vhdl.do -l msim_transcript -gui work.spi_adc_vhd_tst
+# vsim +altera -do practica4_run_msim_rtl_vhdl.do -l msim_transcript -gui work.spi_adc_vhd_tst 
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.spi_adc_vhd_tst(spi_adc_arch)
+# Loading work.spi_adc(comportamiento)
+# Loading work.clkout(syn)
+# Loading altera_mf.altera_device_families(body)
+# Loading altera_mf.mf_pllpack(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading altera_mf.altpll(behavior)
+# Loading altera_mf.mf_cycloneiii_pll(vital_pll)
+# Loading altera_mf.mf_cda_mn_cntr(behave)
+# Loading altera_mf.mf_cda_scale_cntr(behave)
+# ** Warning: Design size of 6 instances exceeds ModelSim ALTERA recommended capacity.
+# This may because you are loading cell libraries which are not recommended with
+# the ModelSim Altera version. Expect performance to be adversely affected.
+# do practica4_run_msim_rtl_vhdl.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/db/clkout_altpll.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module clkout_altpll
+# 
+# Top level modules:
+# 	clkout_altpll
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/spi_adc.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity spi_adc
+# -- Compiling architecture comportamiento of spi_adc
+# vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/practica4/clkout.vhd}
+# Model Technology ModelSim ALTERA vcom 10.1d Compiler 2012.11 Nov  2 2012
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity clkout
+# -- Compiling architecture SYN of clkout
+# 
+add wave -position insertpoint  \
+sim:/spi_adc_vhd_tst/clk \
+sim:/spi_adc_vhd_tst/cs \
+sim:/spi_adc_vhd_tst/dout \
+sim:/spi_adc_vhd_tst/reset \
+sim:/spi_adc_vhd_tst/sc \
+sim:/spi_adc_vhd_tst/sck \
+sim:/spi_adc_vhd_tst/sdi
+add wave -position insertpoint  \
+sim:/spi_adc_vhd_tst/clk \
+sim:/spi_adc_vhd_tst/cs \
+sim:/spi_adc_vhd_tst/dout \
+sim:/spi_adc_vhd_tst/reset \
+sim:/spi_adc_vhd_tst/sc \
+sim:/spi_adc_vhd_tst/sck \
+sim:/spi_adc_vhd_tst/sdi
+run
+# ** Note: Cyclone III PLL was reset
+#    Time: 0 ps  Iteration: 3  Instance: /spi_adc_vhd_tst/i1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5
+# ** Note: Cyclone III PLL locked to incoming clock
+#    Time: 1090 ns  Iteration: 3  Instance: /spi_adc_vhd_tst/i1/clkadc/altpll_component/CYCLONEIII_ALTPLL/M5

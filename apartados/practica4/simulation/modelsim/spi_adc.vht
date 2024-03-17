@@ -1,0 +1,81 @@
+-- Copyright (C) 1991-2013 Altera Corporation
+-- Your use of Altera Corporation's design tools, logic functions 
+-- and other software and tools, and its AMPP partner logic 
+-- functions, and any output files from any of the foregoing 
+-- (including device programming or simulation files), and any 
+-- associated documentation or information are expressly subject 
+-- to the terms and conditions of the Altera Program License 
+-- Subscription Agreement, Altera MegaCore Function License 
+-- Agreement, or other applicable license agreement, including, 
+-- without limitation, that your use is for the sole purpose of 
+-- programming logic devices manufactured by Altera and sold by 
+-- Altera or its authorized distributors.  Please refer to the 
+-- applicable agreement for further details.
+
+-- ***************************************************************************
+-- This file contains a Vhdl test bench template that is freely editable to   
+-- suit user's needs .Comments are provided in each section to help the user  
+-- fill out necessary details.                                                
+-- ***************************************************************************
+-- Generated on "03/04/2023 17:51:50"
+                                                            
+-- Vhdl Test Bench template for design  :  spi_adc
+-- 
+-- Simulation tool : ModelSim-Altera (VHDL)
+-- 
+
+LIBRARY ieee;                                               
+USE ieee.std_logic_1164.all;                                
+
+ENTITY spi_adc_vhd_tst IS
+END spi_adc_vhd_tst;
+ARCHITECTURE spi_adc_arch OF spi_adc_vhd_tst IS
+-- constants                                                 
+-- signals                                                   
+SIGNAL clk : STD_LOGIC;
+SIGNAL cs : STD_LOGIC;
+SIGNAL dout : STD_LOGIC_VECTOR(9 DOWNTO 0);
+SIGNAL reset : STD_LOGIC;
+SIGNAL sc : STD_LOGIC;
+SIGNAL sck : STD_LOGIC;
+SIGNAL sdi : STD_LOGIC;
+COMPONENT spi_adc
+	PORT (
+	clk : IN STD_LOGIC;
+	cs : BUFFER STD_LOGIC;
+	dout : BUFFER STD_LOGIC_VECTOR(9 DOWNTO 0);
+	reset : IN STD_LOGIC;
+	sc : IN STD_LOGIC;
+	sck : BUFFER STD_LOGIC;
+	sdi : IN STD_LOGIC
+	);
+END COMPONENT;
+BEGIN
+	i1 : spi_adc
+	PORT MAP (
+-- list connections between master ports and signals
+	clk => clk,
+	cs => cs,
+	dout => dout,
+	reset => reset,
+	sc => sc,
+	sck => sck,
+	sdi => sdi
+	);
+reset<='1','0' after 1000 ns;
+sc<= '1','0' after 3000 ns;
+dato:process
+begin
+  sdi<='0'; wait for 6500 ns;
+  sdi<='1'; wait for 1000 ns;
+  sdi<='0'; wait for 1000 ns;
+  sdi<='1'; wait for 2000 ns;
+  sdi<='0'; wait for 2000 ns;
+  sdi<='1'; wait for 7500 ns;  
+end process dato;
+reloj:process
+begin
+  clk<='0'; wait for 10 ns;
+  clk<='1'; wait for 10 ns;  
+end process reloj;                                         
+END spi_adc_arch;

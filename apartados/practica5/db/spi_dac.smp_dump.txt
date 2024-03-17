@@ -1,0 +1,12 @@
+
+State Machine - |spi_dac|uc_spi_out:cp5|est
+Name est.e2 est.e1 est.e0 
+est.e0 0 0 0 
+est.e1 0 1 1 
+est.e2 1 0 1 
+
+State Machine - |spi_dac|impulso_ini:cp3|estado
+Name estado.e2 estado.e1 estado.e0 
+estado.e0 0 0 0 
+estado.e1 0 1 1 
+estado.e2 1 0 1 

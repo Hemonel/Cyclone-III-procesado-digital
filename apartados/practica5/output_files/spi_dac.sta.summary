@@ -1,0 +1,101 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'divisor_reloj:cp2|clkout'
+Slack : -1.306
+TNS   : -23.217
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -0.077
+TNS   : -0.210
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_reloj:cp2|clkout'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.359
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'divisor_reloj:cp2|clkout'
+Slack : -0.950
+TNS   : -4.134
+
+Type  : Slow 1200mV 85C Model Removal 'divisor_reloj:cp2|clkout'
+Slack : 1.339
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_reloj:cp2|clkout'
+Slack : -1.141
+TNS   : -19.880
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : 0.038
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_reloj:cp2|clkout'
+Slack : 0.311
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.313
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'divisor_reloj:cp2|clkout'
+Slack : -0.810
+TNS   : -3.550
+
+Type  : Slow 1200mV 0C Model Removal 'divisor_reloj:cp2|clkout'
+Slack : 1.263
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -7.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_reloj:cp2|clkout'
+Slack : -0.490
+TNS   : -7.877
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : 0.394
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_reloj:cp2|clkout'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'divisor_reloj:cp2|clkout'
+Slack : -0.312
+TNS   : -1.196
+
+Type  : Fast 1200mV 0C Model Removal 'divisor_reloj:cp2|clkout'
+Slack : 0.944
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : -3.000
+TNS   : -7.224
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -24.000
+
+------------------------------------------------------------

@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="procesador_2">
+		<CBX_INST_ENTRY INSTANCE_NAME="|procesador_2|mem_fifo:fifo|altshift_taps:fifo_rtl_0" CBX_FILE_NAME="shift_taps_h6m.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|procesador_2|spi_adc:cp1|clkout:clkadc|altpll:altpll_component" CBX_FILE_NAME="clkout_altpll.v"/>
+	</PROJECT>
+</LOG_ROOT>

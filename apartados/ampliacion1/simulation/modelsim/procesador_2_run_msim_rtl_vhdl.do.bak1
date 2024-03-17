@@ -1,0 +1,19 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/db {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/db/clkout_altpll.v}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/mem_fifo.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/uc_spi_out.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/spi_dac.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/spi_adc.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/reg_des.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/impulso_ini.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/divisor_reloj.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/contador.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/clkout.vhd}
+vcom -93 -work work {C:/Users/eloyc/OneDrive/Documentos/4UNI/LSDP/ampliacion/procesador_2.vhd}
+

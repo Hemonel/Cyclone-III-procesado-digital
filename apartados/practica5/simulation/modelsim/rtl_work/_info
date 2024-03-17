@@ -1,0 +1,219 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\roirt\Desktop\LSDP\proyecto2\Práctica2\Práctica2\simulation\modelsim
+Econtador
+Z1 w1647709241
+Z2 DPx4 ieee 11 numeric_std 0 22 O3PF8EB`?j9=z7KT`fn941
+Z3 DPx3 std 6 textio 0 22 5>J:;AW>W0[[dW0I6EN1Q0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 5=aWaoGZSMWIcH0i^f`XF1
+Z5 dC:\Users\roirt\Desktop\LSDP\proyecto2\Práctica2\Práctica2\simulation\modelsim
+Z6 8C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/contador.vhd
+Z7 FC:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/contador.vhd
+l0
+L5
+V4EL5V@=3TY^YM3_ck^ld<2
+!s100 8n03X]lDgDWX>G4:^la=81
+Z8 OV;C;10.1d;51
+31
+!i10b 1
+Z9 !s108 1648144682.132000
+Z10 !s90 -reportprogress|300|-93|-work|work|C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/contador.vhd|
+Z11 !s107 C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/contador.vhd|
+Z12 o-93 -work work -O0
+Z13 tExplicit 1
+Aalgoritmo
+R2
+R3
+R4
+DEx4 work 8 contador 0 22 4EL5V@=3TY^YM3_ck^ld<2
+l12
+L10
+VDVmeSzUE19FlCJ>@:<JYY0
+!s100 hU7:CU0Y2TT7kBi3OEzgl3
+R8
+31
+!i10b 1
+R9
+R10
+R11
+R12
+R13
+Edivisor_reloj
+Z14 w1647715980
+R2
+R3
+R4
+R5
+Z15 8C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/divisor_reloj.vhd
+Z16 FC:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/divisor_reloj.vhd
+l0
+L14
+V=QGKJgHS>XW7TRP63o6A=3
+R8
+31
+Z17 !s108 1648144682.057000
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/divisor_reloj.vhd|
+Z19 !s107 C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/divisor_reloj.vhd|
+R12
+R13
+!s100 ZMXFcjPl4e?gkQ`E9kZ]_1
+!i10b 1
+Adecripcion
+R2
+R3
+R4
+DEx4 work 13 divisor_reloj 0 22 =QGKJgHS>XW7TRP63o6A=3
+l38
+L28
+VP]S9L]78zKoNbElJ1JbT<3
+R8
+31
+R17
+R18
+R19
+R12
+R13
+!s100 @Z@;DSSEO>_<bK]<2dQkm0
+!i10b 1
+Eimpulso_ini
+Z20 w1647448140
+R3
+R4
+R5
+Z21 8C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/impulso_ini.vhd
+Z22 FC:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/impulso_ini.vhd
+l0
+L4
+V9Un=`TQke1J0g3dLQ<h;G2
+R8
+31
+Z23 !s108 1648144681.992000
+Z24 !s90 -reportprogress|300|-93|-work|work|C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/impulso_ini.vhd|
+Z25 !s107 C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/impulso_ini.vhd|
+R12
+R13
+!s100 KoJO2;<o8ZXX4EnGzib8h0
+!i10b 1
+Acomportamiento
+R3
+R4
+DEx4 work 11 impulso_ini 0 22 9Un=`TQke1J0g3dLQ<h;G2
+l13
+L9
+VUfMYjn1EU75GWWLH472@z3
+R8
+31
+R23
+R24
+R25
+R12
+R13
+!s100 3>Ah8MM0oKRLekI^Pa?VG1
+!i10b 1
+Ereg_des
+Z26 w1647425952
+R3
+R4
+R5
+Z27 8C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/reg_des.vhd
+Z28 FC:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/reg_des.vhd
+l0
+L4
+V>CF1lZU5XWf[WJSRIABX72
+R8
+31
+Z29 !s108 1648144681.927000
+Z30 !s90 -reportprogress|300|-93|-work|work|C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/reg_des.vhd|
+Z31 !s107 C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/reg_des.vhd|
+R12
+R13
+!s100 ^NSoNAWmUPM8;BEUK89eH3
+!i10b 1
+Acircuito
+R3
+R4
+DEx4 work 7 reg_des 0 22 >CF1lZU5XWf[WJSRIABX72
+l13
+L10
+V?VS[a96KPkVgojUGO=i[e1
+R8
+31
+R29
+R30
+R31
+R12
+R13
+!s100 e747fhZ82MmN81Hhi:Of23
+!i10b 1
+Espi_dac
+Z32 w1647710723
+R3
+R4
+R5
+Z33 8C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/spi_dac.vhd
+Z34 FC:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/spi_dac.vhd
+l0
+L9
+VT5BHZo3:D>?feYoZb3TeY2
+R8
+31
+Z35 !s108 1648144681.866000
+Z36 !s90 -reportprogress|300|-93|-work|work|C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/spi_dac.vhd|
+Z37 !s107 C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/spi_dac.vhd|
+R12
+R13
+!s100 F>`7ak4;g?4BNML40SdMz2
+!i10b 1
+Acircuito
+R3
+R4
+DEx4 work 7 spi_dac 0 22 T5BHZo3:D>?feYoZb3TeY2
+l56
+L15
+V61P:7Kz=][A9L>fa0@`J52
+R8
+31
+R35
+R36
+R37
+R12
+R13
+!s100 e]4iRXKkVjEUCb=WSjk8[0
+!i10b 1
+Euc_spi_out
+Z38 w1647715974
+R3
+R4
+R5
+Z39 8C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/uc_spi_out.vhd
+Z40 FC:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/uc_spi_out.vhd
+l0
+L3
+Vam6BfVEX[c1hcR7?EF]CY3
+R8
+31
+Z41 !s108 1648144681.747000
+Z42 !s90 -reportprogress|300|-93|-work|work|C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/uc_spi_out.vhd|
+Z43 !s107 C:/Users/roirt/Desktop/LSDP/proyecto2/Práctica2/Práctica2/uc_spi_out.vhd|
+R12
+R13
+!s100 IDCn5KdAc1Efm@[Dzj;M_3
+!i10b 1
+Acomportamiento
+R3
+R4
+DEx4 work 10 uc_spi_out 0 22 am6BfVEX[c1hcR7?EF]CY3
+l11
+L8
+V3ZXaRk_]BB:e@^HhU2:X_3
+R8
+31
+R41
+R42
+R43
+R12
+R13
+!s100 3?k?3=ZUCLLAigfGFP;bU0
+!i10b 1

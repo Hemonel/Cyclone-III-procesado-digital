@@ -1,0 +1,173 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -12.061
+TNS   : -123.363
+
+Type  : Slow 1200mV 85C Model Setup 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.142
+TNS   : -19.829
+
+Type  : Slow 1200mV 85C Model Setup 'divisor_reloj:cp2|clkout'
+Slack : -0.892
+TNS   : -59.828
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : 17.342
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -0.194
+TNS   : -0.252
+
+Type  : Slow 1200mV 85C Model Hold 'divisor_reloj:cp2|clkout'
+Slack : -0.168
+TNS   : -0.545
+
+Type  : Slow 1200mV 85C Model Hold 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.058
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.358
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Recovery 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -0.928
+TNS   : -4.028
+
+Type  : Slow 1200mV 85C Model Removal 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : 1.331
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -320.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.688
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 499.755
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -10.692
+TNS   : -108.799
+
+Type  : Slow 1200mV 0C Model Setup 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.865
+TNS   : -14.747
+
+Type  : Slow 1200mV 0C Model Setup 'divisor_reloj:cp2|clkout'
+Slack : -0.679
+TNS   : -30.883
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : 17.632
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -0.127
+TNS   : -0.127
+
+Type  : Slow 1200mV 0C Model Hold 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.064
+TNS   : -0.236
+
+Type  : Slow 1200mV 0C Model Hold 'divisor_reloj:cp2|clkout'
+Slack : 0.006
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.312
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Recovery 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -0.782
+TNS   : -3.386
+
+Type  : Slow 1200mV 0C Model Removal 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : 1.250
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -320.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.684
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 499.749
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -6.443
+TNS   : -62.533
+
+Type  : Fast 1200mV 0C Model Setup 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.493
+TNS   : -7.949
+
+Type  : Fast 1200mV 0C Model Setup 'divisor_reloj:cp2|clkout'
+Slack : -0.103
+TNS   : -0.140
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : 18.496
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'divisor_reloj:cp2|clkout'
+Slack : -0.191
+TNS   : -1.275
+
+Type  : Fast 1200mV 0C Model Hold 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -0.160
+TNS   : -0.285
+
+Type  : Fast 1200mV 0C Model Hold 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -0.004
+TNS   : -0.004
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.188
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Recovery 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -0.270
+TNS   : -0.994
+
+Type  : Fast 1200mV 0C Model Removal 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : 0.909
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -320.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'spi_dac:cp3|divisor_reloj:cp2|clkout'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.444
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'cp1|clkadc|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 499.771
+TNS   : 0.000
+
+------------------------------------------------------------
