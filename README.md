@@ -5,6 +5,8 @@ El objetivo del proyecto es crear un sistema que filtre digitalmente una señal,
 
 El proyecto se creó en fases (están todas las fases en la carpeta apartados) para la asignatura de Laboratorio de sistemas dixitais programables del 4º curso del Grado en Ingeniería en Electrónica Industrial y Automática.
 
+![image](https://github.com/Hemonel/Cyclone-III-procesado-digital/assets/153218898/1d6e823b-a936-48cb-91f5-fd83f88c31d1)
+
 Componentes
 -
 
@@ -12,6 +14,11 @@ Componentes
 - Convertidor ADC MCP3001
 - Convertidor DAC MCP4911
 - Programa Quartus II
+
+Esquema de conexiones
+-
+
+![image](https://github.com/Hemonel/Cyclone-III-procesado-digital/assets/153218898/a5fd3035-2d9a-407e-882e-e605817b615e)
 
 Descripción
 -
